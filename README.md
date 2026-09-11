@@ -1,7 +1,5 @@
 # Fully-Differential-Folded-Cascode-OTA-with-CMFB
 
-# Operational Amplifier Design in 180nm CMOS
-
 ## Overview
 This repository contains the design and simulation results of an Operational Amplifier (Op-Amp) implemented in **0.18 µm (180 nm) CMOS technology**. The design was systematically optimized to meet stringent closed-loop performance metrics using modern analog design methodologies.
 
@@ -33,4 +31,3 @@ The following table summarizes the target requirements versus the achieved perfo
 | **FOM** $\left(\frac{GBW_{CL}}{Area \times I_{total}}\right)$| As High as possible| 0.001731126 MHz/(µA·µm²) |
 | **Chip Power Consumption** ($V_{DD} \times I_{total}$) | Reasonable | 159.35 µW |
 
-*Simulations were conducted in a closed-loop configuration with a gain of +2 ($\beta = 0.5$) to verify the stability, output swing, and settling time.*
